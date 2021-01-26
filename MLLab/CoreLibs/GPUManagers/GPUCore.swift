@@ -63,8 +63,7 @@ class GPUCore {
             let outputBuffer = autoreleasepool {
                 return GPUCore.device.makeBuffer(bytes: outputData, length: MemoryLayout<Float>.size * outputData.count, options: [])
             }
-    //
-    //        //set buffer
+            
             autoreleasepool {
                 for i in 0..<inputBuffers.count {
                     computeCommandEncoder.setBuffer(inputBuffers[i], offset: 0, index: i)

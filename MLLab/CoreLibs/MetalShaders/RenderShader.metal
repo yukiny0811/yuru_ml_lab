@@ -26,10 +26,6 @@ vertex RasterizerData test_vertex (const VertexIn vIn [[ stage_in ]]){
     return rd;
 }
 
-//vertex float4 basic_vertex_shader(device VertexIn *vertices [[buffer(0)]], uint vertexID [[vertex_id]]){
-//    return float4(vertices[vertexID].position, 1);
-//}
-
 fragment half4 test_fragment (RasterizerData rd [[stage_in]]){
     float4 color = rd.color;
     return half4(color.r, color.g, color.b, color.a);

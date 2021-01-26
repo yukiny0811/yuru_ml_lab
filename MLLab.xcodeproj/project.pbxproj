@@ -19,6 +19,7 @@
 		BB298C7F25BFBF6E00FFD220 /* RenderShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BB298C7E25BFBF6E00FFD220 /* RenderShader.metal */; };
 		BB298C8225BFC4B400FFD220 /* GPUCompute.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C8125BFC4B400FFD220 /* GPUCompute.swift */; };
 		BB298C8525BFCCE500FFD220 /* GPURender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C8425BFCCE500FFD220 /* GPURender.swift */; };
+		BB51A56925C0065E00344E4E /* NeuralNetworkBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51A56825C0065E00344E4E /* NeuralNetworkBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BB298C7E25BFBF6E00FFD220 /* RenderShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RenderShader.metal; sourceTree = "<group>"; };
 		BB298C8125BFC4B400FFD220 /* GPUCompute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUCompute.swift; sourceTree = "<group>"; };
 		BB298C8425BFCCE500FFD220 /* GPURender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPURender.swift; sourceTree = "<group>"; };
+		BB51A56825C0065E00344E4E /* NeuralNetworkBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetworkBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +86,10 @@
 		BB298C7325BFB17E00FFD220 /* CoreLibs */ = {
 			isa = PBXGroup;
 			children = (
+				BBDE828425C00559008B088A /* GPUManagers */,
 				BB298C7925BFB3AF00FFD220 /* MetalShaders */,
 				BB298C6D25BFAC9A00FFD220 /* Matrix.swift */,
 				BB298C7025BFB09600FFD220 /* Calc.swift */,
-				BB298C6A25BFABAB00FFD220 /* GPUCore.swift */,
-				BB298C8125BFC4B400FFD220 /* GPUCompute.swift */,
-				BB298C8425BFCCE500FFD220 /* GPURender.swift */,
 			);
 			path = CoreLibs;
 			sourceTree = "<group>";
@@ -98,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				BB298C7625BFB20900FFD220 /* NeuralNetwork_Kaiki.swift */,
+				BB51A56825C0065E00344E4E /* NeuralNetworkBase.swift */,
 			);
 			path = MLNetworks;
 			sourceTree = "<group>";
@@ -109,6 +110,16 @@
 				BB298C7A25BFB3BF00FFD220 /* GPUCompute.metal */,
 			);
 			path = MetalShaders;
+			sourceTree = "<group>";
+		};
+		BBDE828425C00559008B088A /* GPUManagers */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C6A25BFABAB00FFD220 /* GPUCore.swift */,
+				BB298C8125BFC4B400FFD220 /* GPUCompute.swift */,
+				BB298C8425BFCCE500FFD220 /* GPURender.swift */,
+			);
+			path = GPUManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				BB298C8525BFCCE500FFD220 /* GPURender.swift in Sources */,
 				BB298C7125BFB09600FFD220 /* Calc.swift in Sources */,
 				BB298C6B25BFABAB00FFD220 /* GPUCore.swift in Sources */,
+				BB51A56925C0065E00344E4E /* NeuralNetworkBase.swift in Sources */,
 				BB298C8225BFC4B400FFD220 /* GPUCompute.swift in Sources */,
 				BB298C7B25BFB3BF00FFD220 /* GPUCompute.metal in Sources */,
 				BB298C5525BFAA2600FFD220 /* AppDelegate.swift in Sources */,
