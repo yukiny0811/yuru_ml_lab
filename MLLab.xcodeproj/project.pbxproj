@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB298C5525BFAA2600FFD220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C5425BFAA2600FFD220 /* AppDelegate.swift */; };
+		BB298C5925BFAA2700FFD220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB298C5825BFAA2700FFD220 /* Assets.xcassets */; };
+		BB298C5C25BFAA2700FFD220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB298C5A25BFAA2700FFD220 /* Main.storyboard */; };
+		BB298C6725BFAB3100FFD220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C6625BFAB3100FFD220 /* ViewController.swift */; };
+		BB298C6B25BFABAB00FFD220 /* GPUCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C6A25BFABAB00FFD220 /* GPUCore.swift */; };
+		BB298C6E25BFAC9A00FFD220 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C6D25BFAC9A00FFD220 /* Matrix.swift */; };
+		BB298C7125BFB09600FFD220 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C7025BFB09600FFD220 /* Calc.swift */; };
+		BB298C7725BFB20900FFD220 /* NeuralNetwork_Kaiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C7625BFB20900FFD220 /* NeuralNetwork_Kaiki.swift */; };
+		BB298C7B25BFB3BF00FFD220 /* GPUCompute.metal in Sources */ = {isa = PBXBuildFile; fileRef = BB298C7A25BFB3BF00FFD220 /* GPUCompute.metal */; };
+		BB298C7F25BFBF6E00FFD220 /* RenderShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BB298C7E25BFBF6E00FFD220 /* RenderShader.metal */; };
+		BB298C8225BFC4B400FFD220 /* GPUCompute.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C8125BFC4B400FFD220 /* GPUCompute.swift */; };
+		BB298C8525BFCCE500FFD220 /* GPURender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB298C8425BFCCE500FFD220 /* GPURender.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB298C5125BFAA2600FFD220 /* MLLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB298C5425BFAA2600FFD220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB298C5825BFAA2700FFD220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB298C5B25BFAA2700FFD220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB298C5D25BFAA2700FFD220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB298C5E25BFAA2700FFD220 /* MLLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MLLab.entitlements; sourceTree = "<group>"; };
+		BB298C6625BFAB3100FFD220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB298C6A25BFABAB00FFD220 /* GPUCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUCore.swift; sourceTree = "<group>"; };
+		BB298C6D25BFAC9A00FFD220 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		BB298C7025BFB09600FFD220 /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		BB298C7625BFB20900FFD220 /* NeuralNetwork_Kaiki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork_Kaiki.swift; sourceTree = "<group>"; };
+		BB298C7A25BFB3BF00FFD220 /* GPUCompute.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = GPUCompute.metal; sourceTree = "<group>"; };
+		BB298C7E25BFBF6E00FFD220 /* RenderShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RenderShader.metal; sourceTree = "<group>"; };
+		BB298C8125BFC4B400FFD220 /* GPUCompute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUCompute.swift; sourceTree = "<group>"; };
+		BB298C8425BFCCE500FFD220 /* GPURender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPURender.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB298C4E25BFAA2600FFD220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB298C4825BFAA2600FFD220 = {
+			isa = PBXGroup;
+			children = (
+				BB298C5325BFAA2600FFD220 /* MLLab */,
+				BB298C5225BFAA2600FFD220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB298C5225BFAA2600FFD220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C5125BFAA2600FFD220 /* MLLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB298C5325BFAA2600FFD220 /* MLLab */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C7325BFB17E00FFD220 /* CoreLibs */,
+				BB298C7525BFB1EF00FFD220 /* MLNetworks */,
+				BB298C5425BFAA2600FFD220 /* AppDelegate.swift */,
+				BB298C6625BFAB3100FFD220 /* ViewController.swift */,
+				BB298C5825BFAA2700FFD220 /* Assets.xcassets */,
+				BB298C5A25BFAA2700FFD220 /* Main.storyboard */,
+				BB298C5D25BFAA2700FFD220 /* Info.plist */,
+				BB298C5E25BFAA2700FFD220 /* MLLab.entitlements */,
+			);
+			path = MLLab;
+			sourceTree = "<group>";
+		};
+		BB298C7325BFB17E00FFD220 /* CoreLibs */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C7925BFB3AF00FFD220 /* MetalShaders */,
+				BB298C6D25BFAC9A00FFD220 /* Matrix.swift */,
+				BB298C7025BFB09600FFD220 /* Calc.swift */,
+				BB298C6A25BFABAB00FFD220 /* GPUCore.swift */,
+				BB298C8125BFC4B400FFD220 /* GPUCompute.swift */,
+				BB298C8425BFCCE500FFD220 /* GPURender.swift */,
+			);
+			path = CoreLibs;
+			sourceTree = "<group>";
+		};
+		BB298C7525BFB1EF00FFD220 /* MLNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C7625BFB20900FFD220 /* NeuralNetwork_Kaiki.swift */,
+			);
+			path = MLNetworks;
+			sourceTree = "<group>";
+		};
+		BB298C7925BFB3AF00FFD220 /* MetalShaders */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C7E25BFBF6E00FFD220 /* RenderShader.metal */,
+				BB298C7A25BFB3BF00FFD220 /* GPUCompute.metal */,
+			);
+			path = MetalShaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB298C5025BFAA2600FFD220 /* MLLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB298C6125BFAA2700FFD220 /* Build configuration list for PBXNativeTarget "MLLab" */;
+			buildPhases = (
+				BB298C4D25BFAA2600FFD220 /* Sources */,
+				BB298C4E25BFAA2600FFD220 /* Frameworks */,
+				BB298C4F25BFAA2600FFD220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLLab;
+			productName = MLLab;
+			productReference = BB298C5125BFAA2600FFD220 /* MLLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB298C4925BFAA2600FFD220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BB298C5025BFAA2600FFD220 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = BB298C4C25BFAA2600FFD220 /* Build configuration list for PBXProject "MLLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB298C4825BFAA2600FFD220;
+			productRefGroup = BB298C5225BFAA2600FFD220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB298C5025BFAA2600FFD220 /* MLLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB298C4F25BFAA2600FFD220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB298C5925BFAA2700FFD220 /* Assets.xcassets in Resources */,
+				BB298C5C25BFAA2700FFD220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB298C4D25BFAA2600FFD220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB298C6E25BFAC9A00FFD220 /* Matrix.swift in Sources */,
+				BB298C7725BFB20900FFD220 /* NeuralNetwork_Kaiki.swift in Sources */,
+				BB298C7F25BFBF6E00FFD220 /* RenderShader.metal in Sources */,
+				BB298C6725BFAB3100FFD220 /* ViewController.swift in Sources */,
+				BB298C8525BFCCE500FFD220 /* GPURender.swift in Sources */,
+				BB298C7125BFB09600FFD220 /* Calc.swift in Sources */,
+				BB298C6B25BFABAB00FFD220 /* GPUCore.swift in Sources */,
+				BB298C8225BFC4B400FFD220 /* GPUCompute.swift in Sources */,
+				BB298C7B25BFB3BF00FFD220 /* GPUCompute.metal in Sources */,
+				BB298C5525BFAA2600FFD220 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB298C5A25BFAA2700FFD220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB298C5B25BFAA2700FFD220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB298C5F25BFAA2700FFD220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB298C6025BFAA2700FFD220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BB298C6225BFAA2700FFD220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLLab/MLLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7KBT9HS966;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MLLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiny.MLLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB298C6325BFAA2700FFD220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLLab/MLLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7KBT9HS966;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MLLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiny.MLLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB298C4C25BFAA2600FFD220 /* Build configuration list for PBXProject "MLLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB298C5F25BFAA2700FFD220 /* Debug */,
+				BB298C6025BFAA2700FFD220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB298C6125BFAA2700FFD220 /* Build configuration list for PBXNativeTarget "MLLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB298C6225BFAA2700FFD220 /* Debug */,
+				BB298C6325BFAA2700FFD220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB298C4925BFAA2600FFD220 /* Project object */;
+}
